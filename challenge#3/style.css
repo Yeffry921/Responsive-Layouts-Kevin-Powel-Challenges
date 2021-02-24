@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.intro {
+  background-color: #23424A;
+  padding: 80px 0 200px 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.intro-content {
+  width: 50%;
+  max-width: 800px;
+  
+}
+.intro-content h1 {
+  font-size: 48px;
+  margin-top: 1rem;
+}
+.intro-content p  {
+  font-size: 21px;
+  margin-top: 2rem;
+}
+.intro-content h1, p {
+  color: #fff;
+  margin: 1rem 0;
+}
+.intro-content button {
+  margin-top: 5rem;
+  padding: .8rem 1.5rem;
+  background-color: #38CFD9;
+  border-radius: 25px;
+  border: none;
+  color:#000;
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  white-space: nowrap;
+  font-weight: bold;
+}
