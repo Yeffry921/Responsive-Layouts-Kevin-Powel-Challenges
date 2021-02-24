@@ -13,8 +13,7 @@
  * (you probably should for this challenge)
  *
  */
-
-* {
+ * {
   box-sizing: border-box;
 }
 
@@ -24,24 +23,15 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 80%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+.intro {
+  background:#23424a ;
+  padding: 50px 0;
   color: white;
-  background: #23424a;
-  
 }
-
 .intro-content {
-  padding: 15px 0rem 15px 0;
-  max-width: 750px;
-  margin: 0 auto;
-}
-
-.intro-content > * {
   width: 50%;
-}
-
-.more-content {
-  color: #000;
-  max-width: 750px;
-  margin: 0 auto;
 }
