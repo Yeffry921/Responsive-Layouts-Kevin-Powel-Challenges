@@ -15,3 +15,6 @@
 
 # Day 4 
   - Learned about why setting heights not a good idea
+
+# Dat 5-6 
+  - Brushed up on Flexbox, going over its uses for responsive design
