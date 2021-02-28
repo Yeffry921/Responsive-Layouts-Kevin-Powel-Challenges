@@ -42,7 +42,6 @@ h1 {
 .row {
     /* display: flex => flex container */
     display: flex;
-    flex-direction: row;
     /* can't use yet */
     /* gap: 100px; */
 }
@@ -97,14 +96,7 @@ h1 {
     opacity: .75; 
 }
 
-.footer {
-    background-color:#136C72;
-
-}
-
-.footer .row {
-    width: 80%;
-    max-width: 1100px;
-    margin: 0 auto;
-    color: #fff;
+.two-col {
+    background-color: #136C72;
+    color: white;
 }
