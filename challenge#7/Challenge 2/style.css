@@ -1,0 +1,52 @@
+*::before, ::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-light {
+  background-color: #F3EED9;
+}
+
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+}
+.heading-sub {
+  font-weight: 300;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.heading-title {
+  color: #824936;
+  text-align: center;
+}
+.heading {
+  min-height: 680px;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.heading h1 {
+  font-size: 60px;
+}
+.heading p {
+  font-size: 18px;
+}
+
+.main-content p {
+  margin: 0 25px;
+  font-size: 21px;
+}
