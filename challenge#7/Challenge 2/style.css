@@ -21,11 +21,13 @@ img {
 .custom-2 {
   width: 40%;
 }
-.hero {
-  
-}
+
 .bg-light {
   background-color: #F3EED9;
+}
+
+.bg-brown {
+  background-color: #824936;
 }
 .color-light {
   color: #F3EED9;
@@ -45,9 +47,10 @@ img {
   justify-content: space-between;
   padding: 3em 1em;
 }
-section {
-
+.content-col p {
+  font-size: 21px;
 }
+
 .container {
   max-width: 1128px;
   margin: 0 auto;
